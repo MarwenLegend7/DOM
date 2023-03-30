@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shopping Cart</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Shopping Cart</h1>
+	<table>
+		<thead>
+			<tr>
+				<th>Item</th>
+				<th>Price</th>
+				<th>Quantity</th>
+				<th>Like</th>
+				<th>Delete</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>T-Shirt (M)</td>
+				<td>$19.99</td>
+				<td>
+					<button class="minus-btn" type="button" name="button">-</button>
+					<input type="text" name="name" value="1">
+					<button class="plus-btn" type="button" name="button">+</button>
+				</td>
+				<td><span class="heart"></span></td>
+				<td><button class="delete-btn" type="button" name="button">X</button></td>
+			</tr>
+			<tr>
+				<td>Sneakers (US 9)</td>
+				<td>$69.99</td>
+				<td>
+					<button class="minus-btn" type="button" name="button">-</button>
+					<input type="text" name="name" value="1">
+					<button class="plus-btn" type="button" name="button">+</button>
+				</td>
+				<td><span class="heart"></span></td>
+				<td><button class="delete-btn" type="button" name="button">X</button></td>
+			</tr>
+		</tbody>
+	</table>
+    <!-- <div class="test"></div> -->
+	<div class="total-price">
+		<h3>Total Price: $89.98</h3>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
